@@ -4,9 +4,9 @@ import { View, Text, StyleSheet } from "react-native";
 export default class HomeScreen extends React.Component {
     render() {
         return (
-            <View>
+            <View style={{justfyContent:"center", alignItems:"center"}}>
                 <Text style={styles.titleText}>
-                    Hello Word
+                    Tela Inicial
                 </Text>
             </View>
         )
@@ -17,8 +17,6 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         fontSize: 30,
         color: "black",
-        marginLeft:180,
-        marginTop:200,
-        justifyContent:"center"
+        marginTop:200
     },
 })
